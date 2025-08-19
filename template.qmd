@@ -1,0 +1,65 @@
+---
+title: BatSync
+author:
+  name: Jo Walsh
+  affiliation: UK Centre for Ecology & Hydrology
+  email: jowals@ceh.ac.uk
+  orcid: 0000-0003-0268-2263
+date: last-modified
+date-format: long
+
+bibliography: references.bib
+
+format:
+  presentation-revealjs: default
+---
+
+## Introduction
+
+This an overview of the BatSync project (name TBC!) 
+
+We are going to [publish these slides as Github pages](https://quarto.org/docs/publishing/github-pages.html)
+
+## An h2 heading
+
+Here we see the different levels of heading, from h2 down to h6.
+
+### An h3 heading
+
+#### An h4 heading
+
+##### An h5 heading
+
+###### An h6 heading
+
+
+## Different kinds of text
+
+This sentence contains some _italicised text_, some **bold text**, some `monospace text`, and finally some [linked text](https://github.com/ukceh-rse/quarto-templates).
+
+Now we have a code block
+
+```python
+import math
+
+radius = 1.0
+area = math.pi * radius**2
+```
+
+$$
+A = \pi r^2
+$$
+
+I recommend using footnotes to reference literature^[For example, [@Bender2021, page 3-5] ]
+
+
+## More information
+
+See https://quarto.org/docs/guide/
+
+
+# Thank you {.closing-slide .no-logo .no-footer background-image="assets/closing.svg"}
+
+
+<!-- Delete this slide if you have no references -->
+## References {.scrollable}
