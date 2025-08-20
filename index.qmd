@@ -13,6 +13,7 @@ bibliography: references.bib
 format:
   presentation-revealjs: default
 ---
+
 # BatSync
 
 Syndicating bat call data and metadata to different biodiversity monitoring services
@@ -30,12 +31,12 @@ observations of bats](https://nbn.org.uk/wp-content/uploads/2022/09/2022_09-iNat
 
 * Take collections of bat call recordings, create spectrograms and tentative classifications, and send them on to "citizen science" cloud services
 * Forward data either to iNaturalist or iRecord
-* Support and develop community standards for bat call metadata
+* Support and help to develop community standards for bat call metadata
 * Provide a web API, a python library and a commandline interface
 
 ## Our plans
 
-We have support up to Match 2026 to deliver: 
+We have support up to March 2026 to deliver: 
 
 * A robust and reusable, self-hostable rewrite of the prototype application
 * A clear workflow schema that ensures data is shared to relevant platforms to support research, policy, engagement, and AI development
@@ -55,9 +56,7 @@ We have support up to Match 2026 to deliver:
 
 ![](images/batsync.mp4)
 
-# Thank you {.closing-slide .no-logo .no-footer background-image="assets/closing.svg"}
-
-Contact:
+## Contact
 
 * [Tom August](https://www.ceh.ac.uk/staff/tom-august) (Project Investigator)
 * [Jo Walsh](https://www.ceh.ac.uk/staff/jo-walsh) (Tech Lead)
