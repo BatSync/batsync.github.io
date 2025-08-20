@@ -44,8 +44,10 @@ We have support up to March 2026 to deliver:
 
 ## Data syndication
 
-* BatSync -> iNaturalist -> GBIF
-* BatSync -> iRecord -> NBN Atlas
+To "citizen science" collections that feed through to "research grade" archives:
+
+* BatSync -> [iNaturalist](https://nbnatlas.org/) -> [GBIF](https://www.gbif.org/)
+* BatSync -> [iRecord](https://irecord.org.uk/) -> [NBN Atlas](https://nbnatlas.org/)
 * BatSync -> Other?
 
 ## Community standards
