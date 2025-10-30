@@ -1,31 +1,31 @@
 ---
-title: BatSync
+title: BatSync - creating open, verifiable acoustic observations of bats
+
+title-slide-attributes:
+  data-background-image: /images/batsync_title.png
+  data-background-size: contain
+  data-background-opacity: "0.7"
 author:
-  name: Jo Walsh
+  name: Tom August, Jo Walsh
   affiliation: UK Centre for Ecology & Hydrology
-  email: jowals@ceh.ac.uk
-  orcid: 0000-0003-0268-2263
-date: last-modified
-date-format: long
 
 bibliography: references.bib
-
-format:
-  presentation-revealjs: default
 ---
 
-# BatSync
+# BatSync 
 
 Syndicating bat call data and metadata to different biodiversity monitoring services
 
-## Introduction
+* Develop a scalable platform that makes the sharing of data from a range of bat detectors simple
+* Develop a workflow schema that links the tool with repositories.
+* Co-design standards on metadata, data flow and verification, towards a ‘gold-standard’ for ad-hoc recording.
+* Foster an engaged stakeholder group that will lead in development and usage of the app
 
-Welcome to BatSync!
+## Introduction
 
 This project started life as [Bat2iNat](https://github.com/AugustT/bat2inat).
 
-See this 2022 presentation by Tom August on [Creating open, verifiable, acoustic
-observations of bats](https://nbn.org.uk/wp-content/uploads/2022/09/2022_09-iNat-User-Group-Tom-August-Bat2iNat.pdf)
+[See this 2022 presentation by Tom August](https://nbn.org.uk/wp-content/uploads/2022/09/2022_09-iNat-User-Group-Tom-August-Bat2iNat.pdf)
 
 ## What BatSync will do
 
