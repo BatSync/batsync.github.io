@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Variables we set and reuse */
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --hint: #DBFE52; /* data colour from UKCEH branding */
+}
+
+[data-theme="dark"] {
+  --bg: #000000;
+  --text: #ffffff;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 1rem;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.page {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navigation {
+  flex: 30%;
+}
+
+.footer {
+  flex: 100%;
+  margin-top: 360px;
+  justify-content: flex-end;
+}
+
+[data-theme="dark"] #logoImg {
+    content: url("img/UKCEH_Logo-white.png");
+}
+[data-theme="light"] #logoImg {
+    content: url("img/UKCEH_Logo-black.png");
+}
+
+
+/* Option of 1-2 columns for mobile display
+ *
+ * .grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr; 
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+*/
+
+button { 
+    background: var(--bg); 
+    color: var(--text); 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    margin: 5px;
+}
+
+.content {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.editbtn {
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.loginbtn {
+    font-size: 120%;
+}
+
+.toggle {
+    border: none;
+}
+
+/* Default states for views */
+#data-section {
+    display: none;
+}
+
+#map-section {
+  display: none;
+  height: 200px;
+  width: 480px;
+}
+
+#map {
+    height: 200px;
+    width: 480px;
+}
+
+#post-btn {
+    display: none;
+}
+
+/*
+button:hover { background: #0056b3; }
+.success-btn { background: #28a745; }
+.success-btn:hover { background: #218838; }
+.danger-btn { background: #dc3545; }
+.danger-btn:hover { background: #c82333; }
+*/
+
+.observation { 
+    background: var(--bg); 
+    padding: 15px; 
+    margin: 10px 0; 
+    border-radius: 4px; 
+    border: 1px solid #ddd;
+}
+.observation h4 { margin: 0 0 10px 0; color: #333; }
+.observation p { margin: 5px 0; }
+
+.detection {
+    background: var(--contrast);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+}
+.detection-header { font-weight: bold; color: #333; }
+.metadata-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 15px 0;
+}
+.metadata-item {
+    background: var(--bg);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.metadata-label { font-weight: bold; color: #666; font-size: 0.85em; }
+.metadata-value { font-size: 1.1em; color: #333; }
+
+/* display of raw metadata */ 
+
+.json-key {
+  color: var(--primary, #3b82f6);
+  font-weight: bold;
+}
+
+.json-value {
+  color: var(--text, #1a1a1a);
+}
+
+.json-object {
+  margin-left: 1.5rem;
+  border-left: 2px solid #e5e7eb;
+  padding-left: 0.5rem;
+}
+
+.json-string { color: #059669; }
+.json-number { color: #dc2626; }
+.json-boolean { color: #7c3aed; }
+
+
+input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: var(--bg);
+    color: var(--text);
+}
+
+label,input{float:left}
+label,input[type="submit"]{clear:left}
+
+.analysis-summary {
+    background: var(--contrast);
+    padding: 15px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+textarea {
+    width: 100%;
+}
+
+@keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+.blink {
+   animation: blink 1s infinite;
+}
